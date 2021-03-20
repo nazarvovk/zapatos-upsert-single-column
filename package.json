@@ -1,0 +1,22 @@
+{
+  "name": "zapatos-issue-10",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "docker-compose up -d && ts-node populate && npm run script",
+    "script": "ts-node src/bug.ts",
+    "zapatos": "zapatos"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "@types/pg": "7.14.3",
+    "esbuild": "0.8.54",
+    "esbuild-plugin-ignore": "1.1.0",
+    "pg": "8.2.1",
+    "ts-node": "9.1.1",
+    "typescript": "4.2.2",
+    "zapatos": "2.0.1"
+  }
+}
