@@ -1,6 +1,6 @@
 import { Pool } from 'pg';
 
-import * as db from './zapatos/src';
+import * as db from 'zapatos/db'
 
 async function main() {
   const pool = new Pool({
